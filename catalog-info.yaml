@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "azuretest-10"
+  description: "azuretest-10"
+  labels:
+    system: web-apps
+  links:
+    - url: https://github.com/RohanAwasthi/azuretest-10
+      title: "azuretest-10"
+      icon: code
+  tags:
+    - java
+    - azure
+    - applicationtype-webapplication
+  annotations:
+    jenkins.io/github-folder: 'apache-web-app/azure-terrform-job'
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug:  RohanAwasthi/azuretest-10
+    backstage.io/linguist: https://github.com/RohanAwasthi/azuretest-10
+    azure.com/tag-selector: pid/p44
+spec:
+  type: service
+  lifecycle: development
+  owner: devtanu.majumder
